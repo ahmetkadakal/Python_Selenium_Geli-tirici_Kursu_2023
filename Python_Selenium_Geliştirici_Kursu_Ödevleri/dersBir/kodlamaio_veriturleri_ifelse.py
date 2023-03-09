@@ -8,8 +8,8 @@ ben direk giriş yapılan sayfadan örnek vermek istiyorum
 Mesela:
     if(kullaniciAdi == girilenKullaniciAdi and sifre == girilenSifre):
         print("başarılı giriş")
-    elif(kullaniciAdi != girilenKullaniciAdi and sifre != girilenSifre):
-        print("kullanici adi ve sifre yanlis")
+    elif(kullaniciAdi != girilenKullaniciAdi or sifre != girilenSifre):
+        print("kullanici adi veya sifre yanlis")
     else:
         print("boş veri")
 
