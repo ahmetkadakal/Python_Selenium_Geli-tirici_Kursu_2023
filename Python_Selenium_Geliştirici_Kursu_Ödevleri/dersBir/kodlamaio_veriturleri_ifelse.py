@@ -9,7 +9,7 @@ Mesela:
     if(kullaniciAdi == girilenKullaniciAdi and sifre == girilenSifre):
         print("başarılı giriş")
     elif(kullaniciAdi != girilenKullaniciAdi and sifre != girilenSifre):
-        print("kullanici adi veya sifre yanlis")
+        print("kullanici adi ve sifre yanlis")
     else:
         print("boş veri")
 
